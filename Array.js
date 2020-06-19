@@ -96,7 +96,7 @@ Object.defineProperty(Array.prototype, "reduce", {
       }
 
       if (k >= len) {
-        throw new TypeError("Reduce of empty array " + "with no initial value");
+        throw new TypeError("with no inital value ");
       }
       value = o[k++];
     }
